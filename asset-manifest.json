@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/FYP_Frontend/static/css/main.dfb2db8a.css",
+    "main.js": "/FYP_Frontend/static/js/main.4e3b35d4.js",
+    "static/js/453.02dbc307.chunk.js": "/FYP_Frontend/static/js/453.02dbc307.chunk.js",
+    "static/media/5.jpg": "/FYP_Frontend/static/media/5.bfbb4bbba80c45454a1e.jpg",
+    "static/media/logo.svg": "/FYP_Frontend/static/media/logo.47d7797705a660ec897db2281326693b.svg",
+    "static/media/back.jpg": "/FYP_Frontend/static/media/back.32c9f0cc0e23394a2e24.jpg",
+    "index.html": "/FYP_Frontend/index.html",
+    "main.dfb2db8a.css.map": "/FYP_Frontend/static/css/main.dfb2db8a.css.map",
+    "main.4e3b35d4.js.map": "/FYP_Frontend/static/js/main.4e3b35d4.js.map",
+    "453.02dbc307.chunk.js.map": "/FYP_Frontend/static/js/453.02dbc307.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfb2db8a.css",
+    "static/js/main.4e3b35d4.js"
+  ]
+}
