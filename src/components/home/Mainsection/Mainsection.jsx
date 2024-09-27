@@ -5,6 +5,7 @@ export default function Mainsection() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
+    
     {
       title: 'Welcome to IOC',
       subtitle: 'Total Excellence'

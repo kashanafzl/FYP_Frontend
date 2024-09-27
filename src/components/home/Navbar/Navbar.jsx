@@ -5,7 +5,7 @@ import {
   IoIosMenu,
   IoIosClose,
 } from "react-icons/io";
-import { useNavigate } from "react-router-dom"; 
+import { Link, useNavigate } from "react-router-dom"; 
 
 // Logo import
 import logo from "../../../assets/Img/logo.svg";
@@ -104,6 +104,13 @@ const Navbar = () => {
                 </div>
               )}
             </li>
+
+              <Link to='/faculty'>
+            <li className="hover:text-gray-200">
+              <a href="/">Faculty</a>
+            </li>
+            </Link>
+
             <li className="hover:text-gray-200">
               <a href="#contact">Contact</a>
             </li>

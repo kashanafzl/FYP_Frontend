@@ -8,6 +8,7 @@ import Login from "./components/login/Login";
 import Home from "./components/home/Home";
 import Main from "./components/dashboard/Main";
 import Signup from "./components/SignIn/Signup";
+import Faculty from "./components/faculty/Faculty";
 // import './index.css'
 
 
@@ -21,6 +22,8 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/dashboard" element={<Main />} />
+          <Route path="/faculty" element={<Faculty />} />
+
         </Routes>
       </Router>
     </div>
