@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/FYP_Frontend/static/css/main.3a2cb41e.css",
-    "main.js": "/FYP_Frontend/static/js/main.cc4dfdc7.js",
-    "static/js/453.02dbc307.chunk.js": "/FYP_Frontend/static/js/453.02dbc307.chunk.js",
-    "static/media/sirmuneer.png": "/FYP_Frontend/static/media/sirmuneer.6d31836ebf2e41f7eb53.png",
-    "static/media/5.jpg": "/FYP_Frontend/static/media/5.bfbb4bbba80c45454a1e.jpg",
-    "static/media/logo.svg": "/FYP_Frontend/static/media/logo.47d7797705a660ec897db2281326693b.svg",
-    "static/media/sirirfan.jpg": "/FYP_Frontend/static/media/sirirfan.39a9afe76ef028451007.jpg",
-    "static/media/shafi.jpg": "/FYP_Frontend/static/media/shafi.59c95b7677f8e7251218.jpg",
-    "static/media/back.jpg": "/FYP_Frontend/static/media/back.32c9f0cc0e23394a2e24.jpg",
-    "static/media/sirzeeshan.jpg": "/FYP_Frontend/static/media/sirzeeshan.ee920121ac7b616e54ca.jpg",
-    "index.html": "/FYP_Frontend/index.html",
-    "main.3a2cb41e.css.map": "/FYP_Frontend/static/css/main.3a2cb41e.css.map",
-    "main.cc4dfdc7.js.map": "/FYP_Frontend/static/js/main.cc4dfdc7.js.map",
-    "453.02dbc307.chunk.js.map": "/FYP_Frontend/static/js/453.02dbc307.chunk.js.map"
+    "main.css": "/FYP_Frontend123/static/css/main.3a2cb41e.css",
+    "main.js": "/FYP_Frontend123/static/js/main.b351b67b.js",
+    "static/js/453.02dbc307.chunk.js": "/FYP_Frontend123/static/js/453.02dbc307.chunk.js",
+    "static/media/sirmuneer.png": "/FYP_Frontend123/static/media/sirmuneer.6d31836ebf2e41f7eb53.png",
+    "static/media/5.jpg": "/FYP_Frontend123/static/media/5.bfbb4bbba80c45454a1e.jpg",
+    "static/media/logo.svg": "/FYP_Frontend123/static/media/logo.47d7797705a660ec897db2281326693b.svg",
+    "static/media/sirirfan.jpg": "/FYP_Frontend123/static/media/sirirfan.39a9afe76ef028451007.jpg",
+    "static/media/shafi.jpg": "/FYP_Frontend123/static/media/shafi.59c95b7677f8e7251218.jpg",
+    "static/media/back.jpg": "/FYP_Frontend123/static/media/back.32c9f0cc0e23394a2e24.jpg",
+    "static/media/sirzeeshan.jpg": "/FYP_Frontend123/static/media/sirzeeshan.ee920121ac7b616e54ca.jpg",
+    "index.html": "/FYP_Frontend123/index.html",
+    "main.3a2cb41e.css.map": "/FYP_Frontend123/static/css/main.3a2cb41e.css.map",
+    "main.b351b67b.js.map": "/FYP_Frontend123/static/js/main.b351b67b.js.map",
+    "453.02dbc307.chunk.js.map": "/FYP_Frontend123/static/js/453.02dbc307.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a2cb41e.css",
-    "static/js/main.cc4dfdc7.js"
+    "static/js/main.b351b67b.js"
   ]
 }
