@@ -9,6 +9,7 @@ import Home from "./components/home/Home";
 import Main from "./components/dashboard/Main";
 import Signup from "./components/SignIn/Signup";
 import Faculty from "./components/faculty/Faculty";
+import Requestforfyp from "./components/requestforfyp/Requestforfyp";
 // import './index.css'
 
 
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/dashboard" element={<Main />} />
           <Route path="/faculty" element={<Faculty />} />
+          <Route path="/requestforfyp" element={<Requestforfyp />} />
 
         </Routes>
       </Router>

@@ -1,10 +1,14 @@
 import React from 'react'
-import Navbar from '../home/Navbar/Navbar'
+
+import Leftsidebar from './Leftsidebar'
+import SimpleNavbar from '../home/Navbar/SimpleNavbar'
 
 function Main() {
   return (
     <div>
-        <Navbar/>
+        <SimpleNavbar/>
+        <Leftsidebar/>
+        
     </div>
   )
 }
