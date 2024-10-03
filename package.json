@@ -1,7 +1,8 @@
 {
   "name": "ioc-frontend",
   "version": "0.1.0",
-  "homepage": "https://kashanafzl.github.io",
+"homepage": "https://kashanafzl.github.io/FYP_Frontend",
+
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
