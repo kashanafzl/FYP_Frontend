@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link
 import { FaHome, FaUser, FaChartBar, FaCog, FaBars, FaTimes } from 'react-icons/fa';
+import { IoBook } from "react-icons/io5";
 
 function Leftsidebar() {
   const [isOpen, setIsOpen] = useState(true);
@@ -54,7 +55,7 @@ function Leftsidebar() {
                 to="/requestforfyp"
                 className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
               >
-                <FaUser className="text-xl" />
+                <IoBook  className="text-xl" />
                 <span className="text-lg font-semibold group-hover:text-gray-300">Request For FYP</span>
               </Link>
             </li>
