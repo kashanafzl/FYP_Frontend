@@ -10,6 +10,7 @@ import Main from "./components/dashboard/Main";
 import Signup from "./components/SignIn/Signup";
 import Faculty from "./components/faculty/Faculty";
 import Requestforfyp from "./components/requestforfyp/Requestforfyp";
+import Setting from "./components/setting/Setting";
 // import './index.css'
 
 
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/dashboard" element={<Main />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/requestforfyp" element={<Requestforfyp />} />
+          <Route path="/setting" element={<Setting />} />
 
         </Routes>
       </Router>

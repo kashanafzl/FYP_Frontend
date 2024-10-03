@@ -72,7 +72,7 @@ function Leftsidebar() {
 
             <li className="group">
               <Link
-                to="/settings"
+                to="/setting"
                 className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
               >
                 <FaCog className="text-xl" />
