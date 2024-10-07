@@ -13,10 +13,10 @@ function Leftsidebar() {
 
   return (
     <div>
-      <div className="relative mt-32">
+      <div className="relative ">
         {/* Sidebar */}
         <div
-          className={`bg-gray-800 text-white h-screen shadow-lg fixed top-16 ${
+          className={`bg-gray-800 text-white h-screen shadow-lg absolute  ${
             isOpen ? 'left-0' : '-left-56'
           } transition-all duration-300 ease-in-out w-72 z-40`}
         >
@@ -42,7 +42,7 @@ function Leftsidebar() {
 
             <li className="group">
               <Link
-                to="/profile"
+                to="profile"
                 className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
               >
                 <FaUser className="text-xl" />
@@ -52,7 +52,7 @@ function Leftsidebar() {
 
             <li className="requestforfyp">
               <Link
-                to="/requestforfyp"
+                to="requestforfyp"
                 className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
               >
                 <IoBook  className="text-xl" />
@@ -72,7 +72,7 @@ function Leftsidebar() {
 
             <li className="group">
               <Link
-                to="/setting"
+                to="setting"
                 className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
               >
                 <FaCog className="text-xl" />
@@ -83,7 +83,7 @@ function Leftsidebar() {
 
           {/* Footer */}
           <div className="absolute bottom-6 w-full text-center">
-            <p className="text-sm text-gray-400">© 2024 YourBrand</p>
+            <p className="text-sm text-gray-400">© MY_FYP | kashanAfzal</p>
           </div>
         </div>
       </div>

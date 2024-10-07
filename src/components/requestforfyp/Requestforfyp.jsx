@@ -117,6 +117,8 @@
 
 import React, { useState } from 'react';
 
+import './Requestforfyp.css'
+
 function FypForm() {
   const [formData, setFormData] = useState({
     supervisor: '',
@@ -138,7 +140,9 @@ function FypForm() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-10 p-8 bg-white rounded-lg shadow-lg">
+<div id="mldivscreen" className="ml-24 md:ml-80 w-[70%]  mt-10 p-4 md:p-8 bg-white rounded-lg shadow-lg">
+
+
       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">FYP Request Form</h2>
 
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -156,9 +160,9 @@ function FypForm() {
                 required
               >
                 <option value="">-- Select Supervisor --</option>
-                <option value="Supervisor 1">Supervisor 1</option>
-                <option value="Supervisor 2">Supervisor 2</option>
-                <option value="Supervisor 3">Supervisor 3</option>
+                <option value="Supervisor 1">Sir Muneer</option>
+                <option value="Supervisor 2">Sir Zeeshan</option>
+                <option value="Supervisor 3">Sir Qadeem</option>
               </select>
             </div>
 
@@ -194,7 +198,7 @@ function FypForm() {
           {/* Right Column */}
           <div className="flex-1 space-y-6">
             {/* Advantages */}
-            <div>
+            <div style={{marginTop : '-0.5rem'}}>
               <label className="block text-lg font-medium text-gray-700">Advantages</label>
               <textarea
                 name="advantages"

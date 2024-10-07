@@ -16,10 +16,10 @@ export default function Setting() {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-8 p-8 bg-gray-50 min-h-screen">
+    <div className="flex ml-24 md:ml-80 w-[80%]  flex-col lg:flex-row gap-8 p-0 md:p-8 min-h-screen">
       
       {/* Left Side: User Info */}
-      <div className="bg-white text-center p-8 rounded-lg shadow-lg flex-shrink-0 w-full lg:w-1/3">
+      <div className="text-center p-8  rounded-lg shadow-lg ">
         <h3 className="text-3xl font-semibold mb-2">User</h3>
         <p className="text-gray-500">User</p>
 
@@ -47,20 +47,20 @@ export default function Setting() {
         </div>
 
         <button
-          className="mt-6 bg-blue-500 text-white py-2 px-6 rounded-full hover:bg-blue-600 transition"
+          className="mt-6 py-3 px-8 rounded-full  bg-indigo-600 text-white p-2 font-semibold shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-300 transition"
           onClick={handleImageRemove}
         >
           Remove Photo
         </button>
 
-        <div className="mt-4 bg-gray-100 p-4 rounded-lg text-sm text-gray-600 shadow-sm">
-          <p>Upload a new avatar. Larger images will be resized automatically.</p>
+        <div className="mt-4 bg-gray-100 p-4 md:p-4   rounded-lg text-sm text-gray-600 shadow-sm">
+          {/* <p>Upload a new avatar. Larger images will be resized automatically.</p> */}
           <p>Maximum upload size is <span className="font-semibold">1 MB</span>.</p>
         </div>
       </div>
 
       {/* Right Side: Edit Profile */}
-      <div className="bg-white p-8 rounded-lg shadow-lg flex-grow">
+      <div className="bg-white p-4 md:p-4  rounded-lg shadow-lg flex-grow">
         <div className="mb-6">
           <h2 className="text-3xl font-bold">Edit Profile</h2>
           <p className="text-gray-500 border-b-2 border-blue-500 inline-block mt-2">User Info</p>
@@ -126,7 +126,7 @@ export default function Setting() {
           </div>
 
           <div className="mt-8 flex justify-center">
-            <button className="bg-blue-500 text-white py-3 px-8 rounded-full hover:bg-blue-600 transition">
+            <button className="  py-3 px-8 rounded-full  bg-indigo-600 text-white p-4 font-semibold shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-300 transition">
               Update Info
             </button>
           </div>
