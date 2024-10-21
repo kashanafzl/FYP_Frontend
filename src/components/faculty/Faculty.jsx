@@ -1,7 +1,9 @@
+// Faculty.js
 import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { useNavigate } from "react-router-dom";  // Import useNavigate for navigation
 import f1 from "../../assets/Img/shafi.jpg";
 import f2 from "../../assets/Img/sirmuneer.png";
 import f3 from "../../assets/Img/sirirfan.jpg";
@@ -12,6 +14,7 @@ const facultyData = [
     name: "Dr. Shafiullah Khan",
     title: "Professor",
     imgSrc: f1,
+    page: "/drshafiullah",  // Add a page link for each faculty member
     socialLinks: {
       facebook: "https://facebook.com",
       linkedin: "https://linkedin.com",
@@ -24,6 +27,7 @@ const facultyData = [
     name: "Dr. M. Muneer Umar",
     title: "Assistant Professor",
     imgSrc: f2,
+    page: "/DrMuneerUmar",
     socialLinks: {
       facebook: "https://facebook.com",
       linkedin: "https://linkedin.com",
@@ -36,6 +40,7 @@ const facultyData = [
     name: "Dr. M. Irfan Uddin",
     title: "Professor",
     imgSrc: f3,
+    page: "/drirfan",
     socialLinks: {
       facebook: "https://facebook.com",
       linkedin: "https://linkedin.com",
@@ -48,6 +53,7 @@ const facultyData = [
     name: "Dr. Zeeshan Iqbal",
     title: "Professor",
     imgSrc: f4,
+    page: "/drzeeshan",
     socialLinks: {
       facebook: "https://facebook.com",
       linkedin: "https://linkedin.com",
@@ -59,11 +65,18 @@ const facultyData = [
 ];
 
 function Faculty() {
+  const navigate = useNavigate();  // Initialize useNavigate
+
+  const handleCardClick = (page) => {
+    navigate(page);  // Navigate to the corresponding page
+  };
+
   return (
     <div className="flex gap-5 font-montserrat mx-10 items-center py-8">
       {facultyData.map((faculty, index) => (
         <div
           key={index}
+          onClick={() => handleCardClick(faculty.page)}  // Handle card click
           className="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 cursor-pointer"
         >
           <div className="flex justify-center overflow-hidden">

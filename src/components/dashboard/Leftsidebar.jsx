@@ -62,6 +62,16 @@ function Leftsidebar() {
 
             <li className="group">
               <Link
+                to="GraduateScholarManagement"
+                className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
+              >
+                <IoBook  className="text-xl" />
+                <span className="text-lg font-semibold group-hover:text-gray-300">Graduate Scholar </span>
+              </Link>
+            </li>
+
+            <li className="group">
+              <Link
                 to="/analytics"
                 className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
               >

@@ -10,7 +10,11 @@ import Main from "./components/dashboard/Main";
 import Signup from "./components/SignIn/Signup";
 import Faculty from "./components/faculty/Faculty";
 import Requestforfyp from "./components/requestforfyp/Requestforfyp";
-import Setting from "./components/setting/Setting";
+import Profile from "./components/profile/Profile";
+import DrShafiullah from "./components/FacultyMembers/DrShafiullah/DrShafiullah";
+import DrMuneerUmar from "./components/FacultyMembers/DrMuneerUmar";
+import GraduateScholar from "./components/GraduateScholarManagement/GraduateScholar";
+
 // import './index.css'
 
 export default function App() {
@@ -21,12 +25,24 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          {/* Faculty route */}
+          <Route path="faculty" element={<Faculty />} />
+          {/* Faculty route */}
+
+          {/* faculty Members */}
+          <Route path="DrShafiullah" element={<DrShafiullah />} />
+          <Route path="DrMuneerUmar" element={<DrMuneerUmar />} />
+        {/* faculty Members */}
+
+          {/* Dashboard  */}
           <Route path="/dashboard" element={<Main />}>
-            <Route path="faculty" element={<Faculty />} />
+            <Route path="profile" element={<Profile />} />
             <Route path="requestforfyp" element={<Requestforfyp />} />
-            <Route path="setting" element={<Setting />} />
+            <Route path="GraduateScholarManagement" element={<GraduateScholar />} />
+            {/* <Route path="setting" element={<Setting />} /> */}
             {/* add more routes here */}
           </Route>
+          {/* Dashboard  */}
         </Routes>
       </Router>
     </div>

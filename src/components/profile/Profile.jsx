@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Setting() {
+export default function Profile() {
   const [selectedImage, setSelectedImage] = useState(null); // State to store the uploaded image
 
   const handleImageUpload = (event) => {
