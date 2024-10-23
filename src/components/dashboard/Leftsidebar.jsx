@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link
 import { FaHome, FaUser, FaChartBar, FaCog, FaBars, FaTimes } from 'react-icons/fa';
 import { IoBook } from "react-icons/io5";
+import { IoTimerSharp } from "react-icons/io5";
+import { FaUserGraduate } from "react-icons/fa";
 
 function Leftsidebar() {
   const [isOpen, setIsOpen] = useState(true);
@@ -62,10 +64,20 @@ function Leftsidebar() {
 
             <li className="group">
               <Link
+                to="ExamManagement"
+                className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
+              >
+                <IoTimerSharp   className="text-xl" />
+                <span className="text-lg font-semibold group-hover:text-gray-300">Exam management </span>
+              </Link>
+            </li>
+
+            <li className="group">
+              <Link
                 to="GraduateScholarManagement"
                 className="flex items-center py-3 px-6 space-x-4 hover:bg-gray-700 transition duration-300 ease-in-out"
               >
-                <IoBook  className="text-xl" />
+                <FaUserGraduate  className="text-xl" />
                 <span className="text-lg font-semibold group-hover:text-gray-300">Graduate Scholar </span>
               </Link>
             </li>

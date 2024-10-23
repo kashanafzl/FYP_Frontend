@@ -29,7 +29,7 @@ export default function Mainsection() {
   }, [slides.length]);
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative z-10  overflow-hidden">
       <img src={mainimg} alt="Main Background" className="w-full h-screen object-cover relative z-0" />
 
       {/* Overlay with custom clip-path */}

@@ -20,6 +20,19 @@
 }
 
 
+.whatsappicondiv {
+  position: fixed; /* Ensure it's fixed on the screen */
+  bottom: 20px;
+  right: 20px;
+  z-index: 50; /* Increase to make sure it's above other content */
+}
+
+.whatsppicon {
+  color: #0dc143;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
 @layer components {
   .clip-path-polygon {
     clip-path: polygon(0% 0%, 0% 100%, 100% 100%);

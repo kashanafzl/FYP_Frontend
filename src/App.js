@@ -14,12 +14,14 @@ import Profile from "./components/profile/Profile";
 import DrShafiullah from "./components/FacultyMembers/DrShafiullah/DrShafiullah";
 import DrMuneerUmar from "./components/FacultyMembers/DrMuneerUmar";
 import GraduateScholar from "./components/GraduateScholarManagement/GraduateScholar";
+import Exammanagement from "./components/ExamManagement/Exammanagement";
 
 // import './index.css'
 
 export default function App() {
   return (
     <div>
+      
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -38,6 +40,7 @@ export default function App() {
           <Route path="/dashboard" element={<Main />}>
             <Route path="profile" element={<Profile />} />
             <Route path="requestforfyp" element={<Requestforfyp />} />
+            <Route path="ExamManagement" element={<Exammanagement />} />
             <Route path="GraduateScholarManagement" element={<GraduateScholar />} />
             {/* <Route path="setting" element={<Setting />} /> */}
             {/* add more routes here */}
