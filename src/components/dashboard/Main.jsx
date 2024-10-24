@@ -10,8 +10,9 @@ function Main() {
         <SimpleNavbar/>
 
        <div className="mainforleft" style={{display:'flex'}}>
-       <Leftsidebar/>
-       <Outlet/>
+    
+      <Leftsidebar/>
+    <Outlet/>
        </div>
         
     </div>
